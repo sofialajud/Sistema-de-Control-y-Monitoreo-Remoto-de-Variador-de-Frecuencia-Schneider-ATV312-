@@ -27,7 +27,7 @@
  Importante!!!: antes de compilar copie las carpetas que se 
  encuentra en el mismo repositorio en la carpeta de librerias
  -----------------------------------------------------*/ 
-#define BLYNK_TEMPLATE_ID "TMPL2sNs9ljnt" 
+#define BLYNK_TEMPLATE_ID "TMPL2uBdyWKvE" 
 #define BLYNK_TEMPLATE_NAME "Quickstart Template"  
 #include <SPI.h>
 #include <UIPEthernet.h>               // Para ENC28J60
@@ -40,7 +40,7 @@ WidgetLCD lcd(V5);            // Clase LCD de Blynk
 
 uint8_t LED_PIN = 13;         // LED de estado
 
-char auth[] = "s6lr6CZmO5Z6UIEqlQ5lbc3Lpu93ysYi";    // Token de autenticación de la app Blynk.
+char auth[] = "Y7_hx-pOpZPqnv3x3AGUrS2QUwWorujY";    // Token de autenticación de la app Blynk.
 
 uint16_t comando_ATV;               // 1 - comando de marcha, 0 - comando de paro
 uint16_t frecuencia_seteada = 100;  // Referencia de frecuencia
